@@ -1,3 +1,5 @@
+
+
 main {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -36,3 +38,59 @@ main {
 .mainbody {
     margin: 20px;
 }
+
+.row-space {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+ul > li {
+    list-style-type: none;
+    display: inline;
+}
+
+.span {
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+.footer-con {
+    display: flex;
+}
+
+.answer {
+    margin-left: 5px;
+}
+@media screen and (max-width: 480px) {
+    .footer {
+        padding-left: 40px;
+    }
+    .box {
+        padding: 20px;
+        padding-top: 70px;
+        margin: 10px;
+    }
+    .mainbody {
+        margin: 10px;
+        margin-top: 20px;
+    }
+    .head {
+        padding: 30px;
+        padding-top: 70px;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        color: white;
+        background-color: black;
+    }
+    .span {
+      margin-right: 10px;
+      margin-left: 10px;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      display: flex;
+    }
+    .footer-con {
+        display: block;
+        margin-left: 40px;
+    }
+  }
