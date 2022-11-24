@@ -16,10 +16,11 @@ main {
     margin-bottom: 30px;
     color: white;
     background-color: black;
-    background-image: url('./coach.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./coach.jpg');
     background-repeat: no-repeat;
-    background-size: 1500px 700px;
+    background-size: cover;
     background-position: fixed;
+    background-attachment: fixed;
 }
 
 .grid {
@@ -47,7 +48,7 @@ main {
 
 .row-space {
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 45px;
 }
 
 .span {
@@ -70,6 +71,7 @@ main {
 #catch {
     padding-bottom: 10px;
 }
+
 @media screen and (max-width: 480px) {
     .footer {
         padding-left: 90px;
